@@ -1,0 +1,51 @@
+/*header*/
+.firstbg {
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  color: #dfba28;
+}
+
+ /*footer*/
+.lastbg {
+  background: url('BACKGROUNDS/panel6.png') no-repeat center; 
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  color: #e9eeee;
+  font-size: 20px;
+}
+
+.panel4 {
+  background: url('BACKGROUNDS/panel4.gif') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+  color: #dfba28;
+}
+
+/*scoreboard*/
+.scoreboard {
+  background: url('BACKGROUNDS/scoreboard.png') no-repeat center; 
+  background-size: cover;
+  height: 490px;
+  position: relative;
+  color: #dfba28;
+}
+
+/*locator*/
+.panel5 {
+  background: url('BACKGROUNDS/panel5.png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+  color: #dfba28;
+}
+
+.panel3 {
+  background: url('BACKGROUNDS/panel3.png') no-repeat center; 
+  background-size: cover;
+  height: 800px;
+  position: relative;
+  color: #dfba28;
+}

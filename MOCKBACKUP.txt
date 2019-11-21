@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<link rel="shortcut icon" href="HAC/logoicon.ico">
+<head>
+<link rel="stylesheet" href="MOCKclickme.css">
+<link rel="stylesheet" href="clickme.css">
+  <link rel="stylesheet" href="mockbg.css">
+<link rel="stylesheet" href="MOCKnavigator.css">
+  <link rel="stylesheet" href="article.css">
+  <link rel="stylesheet" href="hyperlinks.css">
+  <link rel="stylesheet" href="aligntag.css">
+  <link rel="stylesheet" href="MOCKbgs.css">
+  <link rel="stylesheet" href="scoreboard.css">
+  <link rel="stylesheet" href="MOCKhighlights.css">
+  <link rel="stylesheet" href="locator.css">
+<link rel="stylesheet" href="form.css">
+  <link rel="stylesheet" href="MOCKfooter.css">
+
+  <title>
+    Algo Camp
+  </title>
+  
+</head>
+<body bgcolor=#ffffff>
+  
+  
+  
+<div class="fifthbgg"> <br>
+<div class = "MOCKnavigator">
+ <ul>
+ <li><a href="home.html" class="effect-shine">HOME</a></li>
+  <li><a href="about.html" class="effect-shine">ABOUT</a></li>
+  <li><a href="contact.html" class="effect-shine">LEARN</a></li>
+<li><a href="about.html" class="effect-shine">VIDEOS</a></li>
+  <li><a href="contact.html" class="effect-shine">TRAIN</a></li>
+</ul></div>
+
+  </div>
+  
+<div class="slideshow-container">
+	
+	<div class="mySlides fade">
+		<img src="whatis.gif" style="width:100%">
+	  
+    </div>
+
+	<div class="mySlides fade">
+		<img src="whatis1.gif" style="width:100%">
+	  
+    </div>
+
+	<div class="mySlides fade">
+		<img src="whatis2.gif" style="width:100%">
+	  
+    </div>
+
+
+	
+
+  </div><br>
+
+
+<script>
+var slideIndex = 0;
+Panel2();
+
+function Panel2() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+
+  slides[slideIndex-1].style.display = "block";  
+ //dots[slideIndex-1].className += " active";
+  setTimeout(Panel2, 3000);
+}
+</script>
+  
+  
+
+  
+  <div class="highlights">
+	<br>
+    
+  </div>
+
+<div class="panel4">
+  <div id="SELECTSPORT" class="overlay">
+  <center><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></center>
+
+  <div class="overlay-content">
+
+<div class="container">
+    <label for="uname" style="float: left; color: #dfba28; position: absolute; top:72%; left: 36.5%;">USERNAME</label>
+    <input type="name" name="uname" required style="position: absolute; float: right; width: 30%; top: 70%; right: 5.5%; ">
+
+    <label for="uname" style="float: left; color: #dfba28; position: absolute; top:95%; left: 36.5%;">EMAIL ADDRESS</label>
+    <input type="name" name="uname" required style="position: absolute; float: right; width: 30%; top: 95%; right: 5.5%; ">
+    
+    <label for="psw" style="float: left; color: #dfba28; position: absolute; top:90%; left: 36.5%;">PASSWORD</label>
+    <input type="password" name="psw" required style="position: absolute; float: right; width: 30%; top: 130%; right: 5.5%; ">
+
+    <label for="cpsw" style="float: left; color: #dfba28; position: absolute; top:110%; left: 36.5%;">CONFIRM PASSWORD</label>
+    <input type="password" name="cpsw" required style="position: absolute; float: right; width: 30%; top: 180%; right: 5.5%; ">
+   
+
+    <br><br><br><br><br><br><br><br>
+<div class="form">
+    <button type="submit" style="position: absolute; float: right; width: 30%; top: 220%; right: 5.5%; ">SIGN-UP</button>
+</div>    
+    
+  </div>
+  </div>
+  </div>
+           <button class="clickme" onclick="openNav()">Click ME</button>
+  </div>
+  
+  <script>
+	function openNav() {
+  		document.getElementById("SELECTSPORT").style.height = "100%";
+			   }
+
+	function closeNav() {
+  		document.getElementById("SELECTSPORT").style.height = "0%";
+			    }
+</script>
+  
+  
+
+
+
+
+<div class="panel5">
+<br>
+</div>
+  
+  <div class="lastbg">
+    <br>
+    <table class="footertable">
+	  <tr>
+		<td class="td">
+		  <p>
+		    <a class="sports" href="americanfootball.html">American Football</a><br><br>
+		    <a class="sports" href="badminton.html">Badminton</a><br><br>
+		    <a class="sports" href="basketball.html">Basketball</a><br><br>
+		    <a class="sports" href="football.html">Football</a><br><br>
+		    <a class="sports" href="tennis.html">Tennis</a><br><br>
+		    <a class="sports" href="volleyball.html">Volleyball</a>
+		  </p>
+		</td>
+		<td>
+		  <p class="footeralign">
+	        <img src="ELEMENTS/logo.png" style="width:75px;height:75px;"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		  </p>
+		</td>
+	  </tr>
+	</table>
+	
+	<p class="follow">
+	  Follow us
+	</p>
+	
+	<div class="sportsdes">
+	<p class="sportsdesc"> Sports Hub is an interactive website for sports. News, videos, photos, and discussions tailored for every kind of sports enthusiast. </p>
+	</div>
+	
+	<div class="footers">
+	  Sports Hub
+	  <br><br><br><br><br><br><br><br><br><br>
+	  Contact us:
+	  <br>
+		
+	  <br>
+	</div>
+	
+	<div class="tel">
+	</div>
+	
+		
+	<div class="phone">
+	<img src="HAC/phone.png" style="width:28px;height:28px;">
+	</div>
+	
+	<div class="home">
+	<img src="HAC/home.png" style="width:28px;height:28px;">
+	</div>
+	
+	<div class="mob">
+	</div>
+	
+	<div class="icons">
+	  <a href="#fb"><img src="ELEMENTS/fb.png" style="width:28px;height:28px;"></a>&emsp;&emsp;
+	  <a href="#twitter"><img src="ELEMENTS/twitter.png" style="width:28px;height:28px;"></a>&emsp;&emsp;
+	  <a href="#insta"><img src="ELEMENTS/insta.png" style="width:28px;height:28px;"></a>
+	</div>
+	
+  </div>
+</body>
+</html>
